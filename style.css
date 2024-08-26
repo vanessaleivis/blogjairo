@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: rgb(160, 151, 151);
+}
+
+h1{
+    background-color: bisque;
+    height: 190px;
+}
+
+ul{
+    display:flex;
+    height: 70px;
+    background-color: rgb(136, 123, 108);
+    padding: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.apartado{
+    justify-content: flex-start;
+    background-color:bisque ;
+    width: 790px;
+    height: 570px;
+}
+
+.apto{
+    justify-content: flex-start;
+    background-color: bisque  ;
+    width: 790px;
+    height: 370px;
+}
+
+.cuadro{
+    background-color: brown;
+    width:230px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 890px;
+    position: relative;
+    top: -930px;
+    
+}
+
+.cuadro2{
+    background-color: brown;
+    width:230px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 890px;
+    position: relative;
+    top: -880px;
+}
+
+.mifor{
+    background-color: rgb(68, 68, 68);
+    height: 75px;
+}
+
+button :hover{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 20px;
+    color: aliceblue;
+    border: none;
+
+}
